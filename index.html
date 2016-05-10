@@ -1,0 +1,312 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Septima Aplicacion</title>
+
+<!--grupo css-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.5.5.min.css"/>
+<link rel="stylesheet" href="css/temasapp7.min.css"/>
+<!--grupo javaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/calentamiento.jpg','imagenes/calentamiento2.jpg','imagenes/tierra.jpg','imagenes/mayo6.jpg','imagenes/mayo8.jpg')">
+<div data-role="page" id="principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>BATALLA DEL 5 DE MAYO</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+ </div>
+  <div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor1/indexwow.html" style="width:1026px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+  </div>
+ 
+  <div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>ANTECEDENTES DEL CONFLICTO</h2>
+  <p>Muestra los antecedentes del conflicto</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>PERSONAJES</h2>
+  <p>Muestran todos los personajes</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>FECHA DEL INCIO AL FINAL DE LA BATALLA DEL 5 DE MAYO</h2>
+  <p>Muestra la fecha de inicio al final</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>DESARROLLO DE LA CONTIENDA</h2>
+      <p>Muestra el desarrollo de la contienda</p>
+      </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>CULMINACION DE LA BATALLA</h2>
+     <p>Muestra la culminacion de la batalla</p>
+     </a>
+     </li>
+      <li class="ui-first-child ui-last-child">
+     <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>EN LA ACTUALIDAD QUE ES ESE LUGAR DONDE FUE LA BATALLA</h2>
+     <p>Muestra como es el lugar de la batalla en la actualidad</p>
+     </a>
+     </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="50" height="50">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>ANTECEDENTES DEL CONFLICTO</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+     <h2>Este 5 de Mayo se conmemora el CLII aniversario de la Batalla de Puebla que tuvo lugar en el año de 1862 cuando México era presidido por Benito Juarez y fue atacado por el Ejército Francés que en ese entonces era considerado como invencible ya que no había perdido una batalla en más de 50 años. La historia de la Batalla de Puebla es sin duda un episodio que los mexicanos debemos conocer y admirar.
+     <br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/mayo6.jpg',1)"><img src="imagenes/mayo7.jpg" width="800" height="500" id="Image26"></a><br>
+     <center>
+     </center>
+     <br>
+   A continuación te explicaremos brevemente mediante un resumen algunos puntos destacados de la Batalla de Puebla para tratar de ayudarte a comprender de mejor manera qué es lo que sucedió en ese conflicto y por qué es tan importante para los mexicanos el celebrar esta fecha.
+     <br><br>
+     
+      <center><img src="imagenes/mayo7.jpg" width="440" height="250" border="3"> </center>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>ANTECEDENTES DE LA BATALLA DEL 5 DE MAYO</h1>
+  <div>
+   <p><li>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una gran deuda de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.</li></p>
+      <br>
+     <p><li>La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.</li></p>
+     <br>
+     <p><li>Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México traladando pertrechos y  ordenó la fortificación de Puebla. Creo al Ejército de Oriente y el hombre que se designó en el mando fue el general Ignacio Zaragoza.</li></p>
+     <br>
+    <p><li>En un principio la Alianza Tripartita aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con Manuel Doblado, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que Juan Prim, representante español, y Lord John Russell por Inglaterra se retiraran. A este acuerdo se le conoce como los Tratados Preliminares de la Soledad.</li></p>
+     <br>
+     <p><li>El 5 de marzo, cuando aún se realizaban las negociaciones de los Tratados de la Soledad, llegó a Veracruz un contingente militar francés bajo el mando de Charles Ferdinand Latrille, conde de Lorencez. A finales de abril, Lorencez desconoció los Tratados de Soledad y se puso en marcha, junto con sus efectivos, hacia Puebla, con el fin último de conquistar la Ciudad de México.</li></p>
+  <br>
+  </div>
+  <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/mayo8.jpg',1)"><img src="imagenes/mayo9.jpg" width="280" height="180" id="Image28"></a></div>
+  </div>
+  </div>
+    </div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>PERSONAJES</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <h2>BENITO JUARES</h2> 
+<P><img src="imagenes/benito.jpg" width="226" height="157" align="left">Benito Juárez tomo el poder, los mexicanos habían sufrido más de medio siglo de conflictos políticos y guerras casi constantes. Casi todas las familias estaban de luto y disfrutar de un periodo de paz era el más caro de sus anhelos. Pero, por desgracia, aún les aguardaban varios años más de acontecimientos sangrientos. El país estaba en total bancarrota, y no podía hacer frente ni a las necesidades más urgentes. Por esa causa, el 17 de julio de 1861, el presidente expidió un decreto en el que se prorrogaba dos años el pago de la deuda externa. Gran Bretaña, Francia y España protestaron,y representantes de los tres gobiernos celebraron una convención en la ciudad de Londres, donde decidieron exigir el pago por la fuerza de las armas.</P>
+<h2>IGNACIO ZARAGOZA</h2>
+<p><img src="imagenes/ignacio.jpg" width="212" height="188" align="right"></p>
+<p>Durante sus primeros años en el ejército, Zaragoza se declaró abiertamente a favor de los liberales defendiendo las ciudades de Saltillo y Monterrey en contra del Gral. Santa Anna. Más tarde, partidario de la Constitución de 1857, tomó parte en importantes batallas como la de Calpulalpan, que puso fin a la Guerra de Reforma (1860).</p>
+<p>Pocos meses después de su triunfo en la ciudad de Puebla, el 8 de septiembre, Ignacio Zaragoza muere en esa misma capital a la edad de 33 años. Por sus hazañas, el General Zaragoza fue declarado como Benemérito de la Patria.</p>
+<h2>MIGUEL NEGRETE</h2>
+<p><img src="imagenes/miguel.jpg" width="208" height="170" align="left">fue un militar mexicano, participó durante las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de Guerra durante la presidencia de Benito Juárez.</p>
+<p>onsiderado el principal héroe después del General Ignacio Zaragoza en la Batalla del 5 de Mayo de 1862 contra los franceses, de quien el próximo 8 de mayo se cumplirán 189 años de su nacimiento, en esta ciudad se le ha recordado siempre como hijo predilecto, lo demuestran los testimonios históricos del lugar, toda vez que su nombre aquí lo lleva, tanto la calle "Negrete Oriente", como el Centro Escolar, su gran monumento ubicado en la Plaza de Armas y su fotografía preside en el palacio municipal.</p>
+<H2>PORFIRIO DIAS</H2>
+<H2><img src="imagenes/dias.jpg" width="212" height="188" align="right"></H2>
+<p>El 5 de mayo de 1862, el Ejército Mexicano de Oriente, bajo las órdenes del general Ignacio Zaragoza, derrotó al ejército francés que invadieron nuestro país so pretexto de cobrar algunas deudas. Uno de los héroes pocos mencionados durante ese episodio es Porfirio Díaz.</p>
+<p>La historia de este episodio histórico comenzó cuando a fines de 1861 habían desembarcado en nuestro territorio tropas francesas, españolas y británicas, con la intención expresa de cobrar a México una serie de deudas. 
+Españoles y británicos decidieron retirarse, pero los franceses, comandados por el general Laurencez avanzaron, creyendo que podrían derrotar al Ejército Mexicano debido a que tenían superioridad numérica: 6 mil franceses frente a 4 mil efectivos nacionales.</p>
+<H2>FELIPE BERRIZABAL</H2>
+<H2><img src="imagenes/felipe.jpg" width="218" height="184" align="left"></H2>
+<p>Continuando con el recordatorio de algunos de los héroes de la gesta histórica del 5 de mayo de 1862 en Puebla, pocos mencionados en las brillantes ceremonias del 5 de mayo , sirva esta como un humilde homenaje, hoy que hemos celebrado el ciento cincuenta aniversario de la batalla del 5 de mayo de 1862, en Puebla.</p>
+<p>Felipe Berriozábal, nació en Zacatecas en 1829, huérfano a temprana edad, luchó mucho buscando superarse y con ese objetivo se trasladó a México, logrando inscribirse en la escuela Nacional de Ingenieros, pero abandono sus estudios para combatir a los norteamericanos durante la guerra con Estados Unidos   en 1846-1847, como teniente de ejercito.
+</p>
+<p>Al concluir la guerra, Berriozábal, regreso a sus estudios titulándose en 1849, ejerció su profesión de ingeniero, elaborando los planos de los estados de México y Tlaxcala, también participo con trabajos para desecar el Lago Lerma, hizo las obras que evitaron las inundaciones de Toluca, con aguas del nevado y fijó los límites entre los estados de México y Michoacán.
+</p>
+<h2>ESTE ES ALGUN VIDEO SOBRE LA BATALLA DEL 5 DE MAYO</h2>
+<iframe width="500" height="200" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+</div>
+ </div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>FECHA DEL INCIO AL FINAL DE LA BATALLA DEL 5 DE MAYO</h1>
+ </div>
+<p>En enero de 1862 las tropas francesas, españolas y británicas invadieron México  en protesta por la suspensión de los pagos de la deuda extranjera decretada por el Presidente Benito Juárez.
+Los representantes de los gobiernos involucrados negociaron entre sí, logrando el mexicano que españoles y británicos desalojaran el territorio nacional. Sin embargo el 17 de abril los franceses iniciaron su avance en nuestro país. Aunque la deuda era un elemento importante, lo esencial en esta invasión era el interés de Napoleón III en establecer un imperio americano que contuviera la expansión anglosajona.</p>
+<center>
+<img src="imagenes/mayo10.jpg" width="333" height="219" align="middle">
+</center>
+<p>El 5 de mayo los invasores franceses bajo el mando del general francés Charles Ferdinand Latrille, Conde de Lorencez atacaron Puebla que era la última posibilidad de detener a los invasores antes de la Ciudad de México y el control del país. Puebla estaba protegida por los fuertes de Loreto y Guadalupe en los que el General Ignacio  Zaragoza tenía casi 6 000 hombres con la orden de impedir el avance francés. El así llamado “ejercito mexicano”, tenía sólo un tercio de militares entrenados, el resto eran reclutas y voluntarios animados por el deseo de servir al país y no ser dominados por Francia; los generales Porfirio Díaz y Zaragoza tenían sólo 32 años pero mucha experiencia en la Guerra de Reforma. Antes de entrar en combate el General Zaragoza se dirigió a sus tropas diciendo:
+
+<li>“Soldados, os habéis portado como héroes combatiendo por la Reforma. Vuestros esfuerzos han sido siempre coronados por el éxito. Hoy vais a pelear por un objeto sagrado, vais a pelear por la Patria y yo os prometo que en la presente jornada conquistaréis un día de gloria. Vuestros enemigos son los primeros soldados del mundo, pero vosotros sois los primeros hijos de México. Soldados, leo en vuestras frentes la victoria y la fe. ¡Viva la independencia nacional! ¡Viva la patria!"</li></p>
+
+<div data-role="content" align="center">
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+  <h1> ESTA ES ALGUNA INFORMACION </h1>
+  <div>
+ <P>Obligado por las circunstancias, el gobierno mexicano decretó en julio de 1861 la suspensión del pago del servicio de la deuda. Como represalia, Francia, que contaba entonces con el ejército más poderoso de Europa, desembarcó en Veracruz. Al avanzar hacia la capital, las fuerzas intervencionistas se enfrentaron en los Fuertes de Loreto, en el estado de Puebla, con un ejército animoso que las derrotó el 5 de mayo de 1862. </P>
+ <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/mayo8.jpg',1)"><img src="imagenes/mayo11.jpg" width="360" height="335" id="Image22"></a></p>
+  </div>
+  </div>
+  </div>  
+   <div> 
+    </div>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>DESARROLLO DE LA CONTIENDA</h1>
+ </div>
+ <div data-role="content" align="center">
+    <div>
+    <h1>DESARROLLO DE LA CONTIENDA</h1>
+      <p>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. </p>
+<img src="imagenes/mayo12.jpg" width="440" height="250">
+<br>
+     <p> Pese a su éxito, la batalla no impidió la invasión del país, sólo la retrasó, sin embargo, sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días), y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano.
+
+Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir,1 los franceses se retiraron incondicionalmente del país en el año de1867.</p>
+      <br><br>
+      <img src="imagenes/mayo13.jpg" width="440" height="250"> 
+       <br><br>  
+
+<H2>ESTA ES ALGUNA PAGINA EN DONDE ENCONTRARAS MAS INFORMACION</H2>
+<!-- Start WOWSlider.com -->
+<iframe src="http://www.mexicanosunidos.org/5demayo.html" style="width:100%;height:80%;max-width:200%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+   
+    </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>CULMINACION DE LA BATALLA</h1>
+ </div>
+ <div data-role="content" align="center">
+   <div>
+     <p>La realidad es que fueron tres batallas y sólo se ganó una, esta es la historia:
+
+El 5 de mayo de 1862 se llevó a cabo la primera batalla de Puebla contra las tropas francesas que avanzaron de Córdoba, hacia la Ciudad de México. No fue del todo una batalla; una avanzada del ejército francés fue en exploración para ver las posibilidades de un gran avance y fueron recibidos por el ejército de los Zacapoaxtlas, que efectivamente vencieron a la avanzada y los obligaron a replegarse a Córdoba.</p>
+    <img src="imagenes/mayo14.jpg" width="440" height="320"><br><br>
+     <p>Nada ganamos los mexicanos el 5 de mayo de 1862 en Puebla, nada en absoluto; un efímero laurel que, debido a la desunión del pueblo nos cristalizó y se convirtió en derrota y conquista. Mucho ganamos en la olvidada fecha del 2 de abril de 1867, cuando un olvidado y denostado héroe derrotó a los invasores del país. Pero el gobierno emanado de la Revolución erigió a uno como héroe y condenó a otro como villano, uno de los tantos episodios torcidos o inventados de nuestra historia en busca de sostener la ideología de un régimen. Hoy, es momento de recuperar la historia.</p>
+<img src="imagenes/mayo15.jpg" width="250" height="160" border="3">
+ </div></div>
+ <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>EN LA ACTUALIDAD QUE ES ESE LUGAR DONDE FUE LA BATALLA</h1>
+ </div>
+ <div data-role="content" align="center">
+    <div>
+<p>El cinco de Mayo se celebra un acontecimiento muy importante para los mexicanos. Rememora cuando el Ejército de México derrotó al temible ejército francés, en la batalla que se llevó a cabo en Puebla de Zaragoza, en 1862. Este año es especial, son ya 150 años de la gesta heroica, aquella batalla que quitara la vida a hombres por el filo de una espada o el estruendo de un cañón, es el momento de conmemorar aquellas tropas que defendieron lo que por derecho les correspondía, una tierra y un honor.</p>
+<img src="imagenes/fuerte2.jpg" width="250" height="160" border="3">
+<p>La Batalla de Puebla tuvo lugar el 5 de mayo de 1862 cerca de la ciudad de Puebla (México), en el ataque y defensa del Fuerte de Loreto y del Fuerte de Guadalupe, durante la invasión francesa de México. Fue una importante victoria mexicana con resonancia global, pues venció al ejército más experimentado y reputado de la época y se conmemora en México con la fiesta del Cinco de Mayo.</p>
+<img src="imagenes/fuerte3.jpg" width="250" height="160" border="3">
+
+    </div>
+  </div>
+ <div data-role="footer" align="center" data-theme="a">
+  <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+  </div>
+  <div>
+    <h4>Aplicacion siete</h4>
+    <h4>MARGARITA TORRES MORLAN</h4>
+  </div>
+</div>
+</div>
